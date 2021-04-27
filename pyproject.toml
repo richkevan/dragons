@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "capstone"
+version = "0.1.0"
+description = ""
+authors = ["Drew Sexton"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.1.7"
+flake8 = "^3.9.0"
+requests = "^2.25.1"
+gittyleaks = "^0.0.31"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
